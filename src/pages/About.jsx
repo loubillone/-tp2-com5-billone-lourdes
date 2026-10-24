@@ -1,12 +1,13 @@
 import React, { useState } from "react";
+import "../css/about.css";
 
 const About = () => {
   const [verMas, setVerMas] = useState(false);
 
   return (
-    <div>
-      <h2>Sobre mí</h2>
-      <p>
+    <div className="sobre-mi">
+      <h2 className="titulo-sobreMi">Sobre mí</h2>
+      <p className="parrafo-sobreMi">
         Soy una desarrolladora web apasionada por crear soluciones digitales
         innovadoras y funcionales. Mi experiencia abarca el desarrollo frontend
         con tecnologías modernas para crear aplicaciones web dinámicas. Me
@@ -22,7 +23,7 @@ const About = () => {
       </button>
 
       {verMas && (
-        <div>
+        <div className="info-extra">
           <h5>Formación</h5>
           <p>Tecnicatura en Desarrollo de Software — UTN FRT (en curso).</p>
 

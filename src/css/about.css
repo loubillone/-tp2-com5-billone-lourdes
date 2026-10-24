@@ -1,43 +1,51 @@
 .sobre-mi {
-  padding: 6rem 15rem;
-  background-color: #ffffff;
   width: 100%;
 }
 
 .titulo-sobreMi {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 3rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #212529;
 }
 
 .parrafo-sobreMi {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   line-height: 1.8;
   margin-bottom: 2rem;
-  text-align: justify;
+  color: #495057;
 }
 
-/* Tablet */
-@media (max-width: 992px) {
-  .sobre-mi {
-    padding: 5rem 6rem;
-  }
+.sobre-mi h5 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  color: #212529;
+  border-left: 4px solid #212529;
+  padding-left: 1rem;
 }
 
-/* Celular */
+.sobre-mi p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: #495057;
+}
+
+.info-extra {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 1.5rem;
+  border: 1px solid #dee2e6;
+}
+
 @media (max-width: 768px) {
-  .sobre-mi {
-    padding: 4rem 2rem;
-  }
-
   .titulo-sobreMi {
-    font-size: 2.8rem;
-    margin-bottom: 2rem;
+    font-size: 2rem;
   }
 
   .parrafo-sobreMi {
-    font-size: 1.6rem;
-    line-height: 1.7;
-    text-align: left;
+    font-size: 1.5rem;
   }
 }

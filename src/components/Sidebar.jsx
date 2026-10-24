@@ -26,12 +26,12 @@ const Sidebar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/proyectos" className={({ isActive }) => isActive ? "active" : ""}>
+          <NavLink to="/projects" className={({ isActive }) => isActive ? "active" : ""}>
             <i className="fa-solid fa-folder-open"></i> Proyectos
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contacto" className={({ isActive }) => isActive ? "active" : ""}>
+          <NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>
             <i className="fa-solid fa-envelope"></i> Contacto
           </NavLink>
         </li>

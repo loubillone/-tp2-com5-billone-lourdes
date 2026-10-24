@@ -1,0 +1,52 @@
+.contacto {
+  width: 100%;
+  max-width: 70rem;
+}
+
+.titulo-contacto {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #212529;
+}
+
+.subtitulo-contacto {
+  font-size: 1.5rem;
+  color: #6c757d;
+  margin-bottom: 3rem;
+}
+
+.contacto .form-label {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #212529;
+}
+
+.contacto .form-control {
+  font-size: 1.4rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  transition: border-color 0.2s;
+}
+
+.contacto .form-control:focus {
+  border-color: #212529;
+  box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.15);
+}
+
+.contacto textarea {
+  resize: vertical;
+}
+
+.contacto .btn {
+  font-size: 1.4rem;
+  padding: 0.8rem 2.5rem;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .titulo-contacto {
+    font-size: 2rem;
+  }
+}

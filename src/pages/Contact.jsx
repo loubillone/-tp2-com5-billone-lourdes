@@ -1,9 +1,11 @@
 import React from "react";
+import "../css/contact.css";
 
 const Contact = () => {
   return (
-    <div>
-      <h2>Contacto</h2>
+    <div className="contacto">
+      <h2 className="titulo-contacto">Contacto</h2>
+      <p className="subtitulo-contacto">Completá el formulario y te respondo a la brevedad.</p>
       <form>
         <div className="row">
           <div className="col-md-6 mb-3">

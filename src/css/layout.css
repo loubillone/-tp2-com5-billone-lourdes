@@ -1,17 +1,21 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .layout {
   display: flex;
-  min-height: 100vh;
+  flex: 1;
 }
 
 .layout-aside {
   width: 30%;
-  min-height: 100vh;
   background-color: #1a1a2e;
-  position: sticky;
-  top: 0;
-  align-self: flex-start;
 }
 
 .layout-main {
   width: 70%;
+  padding: 3rem 4rem;
+  overflow-y: auto;
 }
