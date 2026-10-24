@@ -1,0 +1,40 @@
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5rem 0 5rem;
+}
+
+.contenedor-filas-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+@media (max-width: 768px) {
+  .container-header {
+    flex-direction: column;
+    margin: 0 2rem;
+    gap: 2rem;
+  }
+
+  .container-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .header-nav {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .header-nav a {
+    font-size: 1.5rem;
+  }
+}
