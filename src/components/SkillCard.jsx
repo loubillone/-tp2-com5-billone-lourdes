@@ -1,33 +1,13 @@
 import React from "react";
-import "../css/habilidades.css";
-const SkillCard = () => {
-  const habilidades = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Node.js",
-    "Express",
-    "MongoDB",
-    "Git",
-    "Bootstrap",
-  ];
-  return (
-    <>
-      <section id="habilidades" className="habilidades">
-        <div className="container">
-          <h2 className="titulo-habilidades">Habilidades</h2>
 
-          <div className="row">
-            {habilidades.map((habilidad) => (
-              <div className="col-6 col-md-4" key={habilidad}>
-                <div className="habilidad-card">{habilidad}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-    </>
+const SkillCard = ({ icono, nombre }) => {
+  return (
+    <div className="col-6 col-md-4 col-lg-3">
+      <div className="habilidad-card">
+        <i className={`${icono} fa-2x mb-2`}></i>
+        <p>{nombre}</p>
+      </div>
+    </div>
   );
 };
 
